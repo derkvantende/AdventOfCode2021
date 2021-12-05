@@ -13,6 +13,10 @@ namespace AoC2021
             Console.WriteLine("\nDay 2:");
             Day_2.Day2 day2 = new Day_2.Day2();
             day2.printResult();
+
+            Console.WriteLine("\nDay 3:");
+            Day_3.Day3 day3 = new Day_3.Day3();
+            day3.printResult();
         }
     }
 }
