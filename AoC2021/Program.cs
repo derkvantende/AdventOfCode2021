@@ -6,8 +6,13 @@ namespace AoC2021
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Day 1:");
             Day_1.Day1 day1 = new Day_1.Day1();
             day1.printResult();
+
+            Console.WriteLine("\nDay 2:");
+            Day_2.Day2 day2 = new Day_2.Day2();
+            day2.printResult();
         }
     }
 }
